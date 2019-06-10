@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Programa Teste Projeto Compiladores
+
+int main() {
+
+	int a = 20;
+	float f = 2.5;
+	char a = 'A';
+	
+	printf("\n Hello World \n" );
+	
+	return 1;
+	
+}
+
+int fatorial (int n) {
+
+	int res;
+	
+	if (n < 1)
+		res = 1;
+	else
+		res = n * fatorial (n - 1);
+		
+	return res;
+	
+}

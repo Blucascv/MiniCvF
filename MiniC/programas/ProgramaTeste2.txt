@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() { 
+	
+	{}
+	
+	int x;
+	double a, b, c;
+	char c;
+	
+	return 1;
+	
+	}
